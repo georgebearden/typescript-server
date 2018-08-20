@@ -1,0 +1,20 @@
+{
+  "name": "simple-server",
+  "version": "1.0.0",
+  "scripts": {
+    "build": "gulp scripts",
+    "start": "node dist/src/index.js"
+  },
+  "author": "George Bearden",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3"
+  },
+  "devDependencies": {
+    "@types/express": "^4.16.0",
+    "gulp": "^3.9.1",
+    "gulp-typescript": "^5.0.0-alpha.3",
+    "typescript": "^3.0.1"
+  }
+}
